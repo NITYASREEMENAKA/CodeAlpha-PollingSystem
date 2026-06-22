@@ -51,11 +51,10 @@ npx hardhat keystore set SEPOLIA_PRIVATE_KEY
 ```
 
 After setting the variable, you can run the deployment with the Sepolia network:
-
-## 👤 Author
-
-**NITYASREE**
-
+  
 ```shell
 npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
+
 ```
+## 👤 Author
+**NITYASREE**
